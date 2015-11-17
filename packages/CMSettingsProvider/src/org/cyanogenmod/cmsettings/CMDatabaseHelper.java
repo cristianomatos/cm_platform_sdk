@@ -220,8 +220,8 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
         loadRegionLockedStringSetting(db, CMTableNames.TABLE_SECURE,
                 CMSettings.Secure.DEFAULT_THEME_PACKAGE, R.string.def_theme_package);
 
-        loadIntegerSetting(db, CMTableNames.TABLE_SECURE, CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR,
-                R.integer.def_force_show_navbar);
+        //loadIntegerSetting(db, CMTableNames.TABLE_SECURE, CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR,
+        //        R.integer.def_force_show_navbar);
 
         loadStringSetting(db, CMTableNames.TABLE_SECURE, CMSettings.Secure.QS_TILES,
                 R.string.def_qs_tiles);
